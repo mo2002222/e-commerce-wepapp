@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/e-commerce-wepapp/static/css/main.6fdf96c4.css",
+    "main.js": "/e-commerce-wepapp/static/js/main.cb88d4a8.js",
+    "index.html": "/e-commerce-wepapp/index.html",
+    "main.6fdf96c4.css.map": "/e-commerce-wepapp/static/css/main.6fdf96c4.css.map",
+    "main.cb88d4a8.js.map": "/e-commerce-wepapp/static/js/main.cb88d4a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fdf96c4.css",
+    "static/js/main.cb88d4a8.js"
+  ]
+}
