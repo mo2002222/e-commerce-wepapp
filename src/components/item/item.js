@@ -20,7 +20,7 @@ const Item = ({ data, addToCart }) => {
                         ${price}
                     </span>
                     <div className="cart" onClick={addToCart}>
-                        <img className="cartImg" src="/cart.svg" alt="" />
+                        <img className="cartImg" src={`${process.env.PUBLIC_URL}/cart.svg`}  alt="cart" />
                     </div>
                 </div>
             </div>

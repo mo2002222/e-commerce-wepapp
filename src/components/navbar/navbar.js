@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-
+// import cartIcon from '/cart.svg'
 const NavBar = ({ onSearch, cartItemCount }) => {
 
     const [searchQuery, setSearchQuery] = useState('');
@@ -36,7 +36,7 @@ const NavBar = ({ onSearch, cartItemCount }) => {
                             </form>
                         </div>
                         <Link to="/cart" className="link headerCart">
-                            <img className="cartImg" src="/cart.svg" alt="cart" />
+                            <img className="cartImg" src={`${process.env.PUBLIC_URL}/cart.svg`}  alt="cart" />
                             {cartItemCount > 0 && (
                                 <div className="cartCounter">{cartItemCount <= 9 ? cartItemCount : "9+"}</div>
                             )}
