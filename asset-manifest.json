@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/e-commerce-wepapp/static/css/main.6fdf96c4.css",
-    "main.js": "/e-commerce-wepapp/static/js/main.efa23f7c.js",
+    "main.js": "/e-commerce-wepapp/static/js/main.841eebb3.js",
     "index.html": "/e-commerce-wepapp/index.html",
     "main.6fdf96c4.css.map": "/e-commerce-wepapp/static/css/main.6fdf96c4.css.map",
-    "main.efa23f7c.js.map": "/e-commerce-wepapp/static/js/main.efa23f7c.js.map"
+    "main.841eebb3.js.map": "/e-commerce-wepapp/static/js/main.841eebb3.js.map"
   },
   "entrypoints": [
     "static/css/main.6fdf96c4.css",
-    "static/js/main.efa23f7c.js"
+    "static/js/main.841eebb3.js"
   ]
 }
