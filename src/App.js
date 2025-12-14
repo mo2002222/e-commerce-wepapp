@@ -9,9 +9,8 @@ import { NotFound } from "./pages/not-found"
 import { useCart } from './context/cart'
 
 function App() {
-
   const navigate = useNavigate();
-  const { cartItemCount } = useCart()
+  const { cartItemCount } = useCart();
 
   const onSearch = (searchQuery) => {
     navigate(`/?${createSearchParams({ q: searchQuery })}`)
